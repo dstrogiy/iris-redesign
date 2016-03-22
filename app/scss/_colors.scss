@@ -1,0 +1,31 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Color Constants
+
+******************************************************************/
+
+
+/*********************
+COLORS
+*********************/
+
+$black:  #333;
+$grey:   #999;
+$white:  #fff;
+
+
+// used in normalize typography
+$background: $white;
+$text-color: $black;
+$link-color: skyblue;
+$link-hover: darken($link-color, 9%);
+$base-border-color: #ddd;
+
+$blue: #0b81ba;
+$light-gray: #f5f5f5;
+$med-gray: #555;
+$red: #ff8668;
+$yellow: #ffce41;
+$green: #85b750;

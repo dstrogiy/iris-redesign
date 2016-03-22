@@ -1,0 +1,15 @@
+{
+  "name": "bread-pudding-bower",
+  "version": "0.0.1",
+  "main": "app/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,111 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Navigation Stylesheet
+
+******************************************************************/
+
+.red {
+	color: $red;
+}
+
+.green {
+	color: $green;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 20px;
+	line-height: 1.9em;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.yellow {
+	color: $yellow;
+}
+
+a.button {
+	padding: 5px 10px;
+	border: 1px solid #555;
+	border-radius: 3px;
+	color: #555;
+
+	&:hover {
+		background: #ddd;
+		border: 1px solid #555;
+	}
+
+	&.red-button {
+		color: $red;
+		border-color: $red;
+
+		&:hover {
+			background: $red;
+			color: $white;
+		}
+	}
+
+	&.small {
+		font-size: 0.7em;
+		padding: 2px 5px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: normal;
+	font-size: 1.4em;
+}
+
+h3 {
+	margin-bottom: 20px;
+	font-size: 1.3em;
+}
+
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+
+table {
+	width: 100%;
+
+	thead {
+		background: $light-gray;
+		text-align: left;
+
+		th {
+			padding: 5px;
+		}
+	}
+
+	tbody {
+		tr {
+			border-bottom: 1px solid #ddd;
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			td {
+				padding: 5px;
+			}
+		}
+	}
+}

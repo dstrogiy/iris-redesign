@@ -1,0 +1,150 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Navigation Stylesheet
+
+******************************************************************/
+
+.nav {
+
+	ul {
+		margin:0;
+		padding: 0 20px;
+
+		> li {
+			margin:0;
+			padding: 0;
+			float: left;
+			list-style-type: none;
+
+			a {
+				display: inline-block;
+				color: $white;
+				text-decoration: none;
+				padding: 5px 20px 10px 20px;
+				font-size: 1.2em;
+				font-weight: bold;
+				margin-top: 5px;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+
+				&:hover {
+					background:rgba(0,0,0,0.2);
+				}
+			}
+
+			&.active a {
+				background:rgba(255,255,255,0.2);
+
+				i {
+					transform: rotate(180deg);
+				}
+			}
+			
+			ul {
+
+				li {
+
+				}
+			}
+		}
+
+		li {
+
+			a {
+
+			}
+		}
+	}
+}
+
+#mobile-nav-button {
+
+	@include breakpoint($desktop-and-up) {
+		display: none;
+	}
+
+}
+
+.active-area {
+	background:rgba(255,255,255,0.2);
+	padding: 20px 40px;
+	color: $white;
+	position: relative;
+	display: none;
+
+	&.open {
+		display: block;
+	}
+
+	.blue-bar-expanded {
+		display: none;
+		margin-top: 20px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+
+			a {
+				color: $white;
+
+				&.copy-card {
+					padding: 0 5px;
+
+					&:hover {
+						color: $black;
+					}
+				}
+			}
+		}
+	}
+
+	.desc {
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+		padding:0 5px;
+	}
+
+	a.expand-bar {
+		position: absolute;
+		right: 20px;
+		display: inline-block;
+		color: $white;
+		padding: 5px 10px;
+		border-radius: 5px;
+		font-size: 1.6em;
+
+		&:hover {
+			background: $white;
+			color: $blue;
+		}
+
+		&.reversed {
+			 transform: rotate(180deg);
+		}
+	}
+
+	a.button {
+		border-color: white;
+		display: inline-block;
+		margin-bottom: 10px;
+
+		&:hover {
+			background:#fff;
+			color: $black;
+			border: 1px solid #fff;
+		}
+	}
+
+	a.dashed {
+		border-bottom: 1px dashed #fff;
+	}
+}

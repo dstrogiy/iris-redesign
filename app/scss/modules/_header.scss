@@ -1,0 +1,82 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Header Stylesheet
+
+******************************************************************/
+
+
+#header {
+	background: $blue;
+	@include span(last 9.5 of 12 inside no-gutters);
+	position: fixed;
+
+	.nav {
+		@include span(full);
+	}
+
+	&.customer-bg {
+		background: #85b750;
+	}
+
+	&.account-bg {
+		background: $blue;
+	}
+
+	&.action-bg {
+		background: #434bb0;
+	}
+
+	&.want-bg {
+		background: #54c1ab;
+	}
+
+	&.help-bg {
+		background: #a459a1;
+	}
+
+}
+
+.logo {
+	@include span(full);
+
+	span {
+		display: block;
+		padding: 7px 20px 3px 47px;
+	}
+}
+
+.search {
+  position: absolute;
+  right: 30px;
+  top: 7px;
+
+  input {
+    background: none;
+    border: 1px solid $white;
+    padding: 5px 40px 5px 5px;
+    width: 100px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: $white;
+
+    &::-webkit-input-placeholder {
+      color: $white;
+    }
+    &::-moz-placeholder {
+      color: $white;
+    }
+    &:-ms-input-placeholder {
+      color: $white;
+    }
+  }
+
+  .search-btn {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,662 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. --> 
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>IRIS</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script src="js/modernizr.2.8.3.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<!-- sidebar nav -->
+<section class="sidebar">
+
+  <div class="clearfix"></div>
+
+  <ul class="main-nav">
+    <li class="scroll-link homepage current"><a class="sm-scroll" href="#homepage"><i class="fa fa-home"></i> IRIS Home</a></li>
+    <li class="scroll-link customer-preferences"><a class="sm-scroll" href="#customer-preferences"><i class="fa fa-gear"></i> Customer Preferences</a></li>
+    <li class="scroll-link account-protection"><a class="sm-scroll" href="#account-protection"><i class="fa fa-lock"></i> Account Protection</a></li>
+    <li class="scroll-link product-info"><a class="sm-scroll" href="#product-info"><i class="fa fa-info"></i> Product Info</a></li>
+    <li class="scroll-link personal-info"><a class="sm-scroll" href="#personal-info"><i class="fa fa-user"></i> Personal Info</a></li>
+    <li class="scroll-link payments"><a class="sm-scroll" href="#payments"><i class="fa fa-credit-card"></i>  Payments</a></li>
+    <li class="scroll-link authorization"><a class="sm-scroll" href="#authorization"><i class="fa fa-lock"></i> Authorization</a></li>
+    <li class="scroll-link statements"><a class="sm-scroll" href="#statements"><i class="fa fa-clone"></i> Statements</a></li>
+    <li class="scroll-link history"><a class="sm-scroll" href="#history"><i class="fa fa-history"></i> History</a></li>
+    <li class="scroll-link offer-management"><a class="sm-scroll" href="#offer-management"><i class="fa fa-check-square-o"></i> Offer Management</a></li>
+  </ul>
+
+  <div class="action-items">
+    <h4 class="sidebar-title">Action Items</h4>
+    <ul class="action-nav">
+      <li><a href="#payments" class="sm-scroll">Account Level Exclusion</a></li>
+      <li><a href="#authorization" class="sm-scroll">Activate Card</a></li>
+      <li><a href="#authorization" class="sm-scroll">Card Monitor</a></li>
+      <li><a href="#authorization" class="sm-scroll">Make a Payment</a></li>
+      <li><a href="#authorization" class="sm-scroll">Travel</a></li>
+      <li><a href="#sample-popup" class="popup">Close Account</a></li>
+    </ul>
+
+    <a href="#" class="button red-button">End Workstream</a>
+    <div class="clearfix"></div>
+  </div>
+
+</section>
+<!-- end sidebar -->
+
+
+<!-- main wrapper -->
+<section class="main">
+  <div class="inside-main">
+
+  <header id="header">
+    <!--<div class="cap-one"><img src="img/logo.png" /></div>-->
+
+    <div class="search">
+        <input class="search-input" type="search" id="site-search-input" placeholder="Search">
+        <a href="#" class="search-btn" title="Search"><i class="fa fa-search"></i></a>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li class="customer-area-link"><a href="#header">Customer <i class="fa fa-angle-down"></i></a></li>
+        <li class="account-area-link active"><a href="#header">Account <i class="fa fa-angle-down"></i></a></li>
+        <li class="action-area-link"><a href="#header">Current Action <i class="fa fa-angle-down"></i></a></li>
+        <li class="want-area-link"><a href="#header">I Want To <i class="fa fa-angle-down"></i></a></li>
+        <li class="help-area-link"><a href="#header">Help <i class="fa fa-angle-down"></i></a></li>
+      </ul>
+    </nav>
+
+    <div class="clearfix"></div>
+
+
+    <!-- green bar -->
+    <div class="active-area customer-area">
+      <img src="img/items.png" />
+      <div class="clearfix"></div>
+    </div>
+    <!-- end green bar -->
+
+
+    <!-- blue bar -->
+    <div class="active-area open account-area" id="bluebar">
+      <a href="#bluebar" class="expand-bar"><i class="fa fa-chevron-down"></i></a>
+
+      <div class="col3">
+        <div class="column">
+          <ul>
+            <li><span class="desc">Primary</span> <strong>Jerry Seinfeld</strong></li>
+            <li><span class="desc">Co-Applicant</span> <strong>George Costanza</strong></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li><a href="#" class="copy-card"><i class="fa fa-files-o"></i></a> <strong>403412930123</strong> <span class="desc">Visa Platinum</span></li>
+            <li><a href="#" class="copy-card"><i class="fa fa-files-o"></i></a> <strong>403123129309</strong> <span class="desc">Advantage Plus</span></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li><span class="desc">Account ID</span> <strong>1912930123</strong> <a href="#" class="copy-card"><i class="fa fa-files-o"></i></a></li>
+            <li><span class="desc">Due Date</span> <strong>October 13, 2015</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <!-- expanded -->
+      <div class="blue-bar-expanded">
+          <div class="col3">
+            <div class="column">
+              <ul>
+                <li><span class="desc">Transfer To</span> <strong>N/A</strong></li>
+                <li><span class="desc">Transfer From</span> <strong>N/A</strong></li>
+                <li><span class="desc">SSN/SIN</span> <strong>894-64-7583</strong></li>
+                <li><span class="desc">Authorized Users</span> <strong>Y</strong></li>
+                <li><span class="desc">Plastic Expired</span> <strong>Y</strong></li>
+                <li><span class="desc">Purchase APR</span> <strong><a href="#" class="dashed">16.90%</strong></a></li>
+                <li><span class="desc">Cash APR</span> <strong><a href="#" class="dashed">18.90%</strong></a></li>
+              </ul>
+            </div>
+
+            <div class="column">
+              <ul>
+                <li><span class="desc">Current Bal</span> <strong>$218.20</strong></li>
+                <li><span class="desc">Current Cash Bal</span> <strong>$0.00</strong></li>
+                <li><span class="desc">Credit Limit</span> <strong>$20,000</strong></li>
+                <li><span class="desc">Cash Limit</span> <strong>$3,500</strong></li>
+                <li><span class="desc">Membership Fee</span> <strong>$0.00</strong></li>
+                <li><span class="desc">Last Cred Limit Change</span> <strong><a href="#" class="dashed">06/15/2012</strong></a></li>
+              </ul>
+            </div>
+
+            <div class="column">
+              <ul>
+                <li><span class="desc">Account Opened</span> <strong>01/12/2005</strong></li>
+                <li><span class="desc">Current Amt Due</span> <strong>$200.00</strong></li>
+                <li><span class="desc">Interest Save Pmt</span> <strong>N/A</strong></li>
+                <li><span class="desc">Last Pmt Rcvd</span> <strong>$10.50</strong></li>
+                <li><span class="desc">Last Pmt Date</span> <strong>01/14/2015</strong></li>
+                <li><span class="desc">Increase/Decrease</span> <strong>Decrease <i class="fa fa-long-arrow-down"></i></strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end expanded -->
+
+        <div class="clearfix"></div>
+
+      </div>
+      <!-- end blue bar -->
+
+
+      <!-- purp bar -->
+      <div class="active-area action-area">
+        <img src="img/items.png" />
+        <div class="clearfix"></div>
+      </div>
+      <!-- end purp bar -->
+
+
+      <!-- yellow bar -->
+    <div class="active-area want-area">
+     
+      <div class="col3">
+        <div class="column">
+          <ul>
+            <li><a href="#" class="button">Add a Balance Transfer</a></li>
+            <li><a href="#" class="button">Add a User</a></li>
+            <li><a href="#" class="button">Add or Update an Address</a></li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <ul>
+            <li><a href="#" class="button">Close an Account</a></li>
+            <li><a href="#" class="button">Create a Lost/Stolen Report</a></li>
+            <li><a href="#" class="button">Present an Offer</a></li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <ul>
+            <li><a href="#" class="button">Request a Credit Limit Increase</a></li>
+            <li><a href="#" class="button">Submit a Work Entry Request</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+    <!-- end yellow bar -->
+
+
+    <!-- help bar -->
+    <div class="active-area help-area">
+      <img src="img/items.png" />
+      <div class="clearfix"></div>
+    </div>
+    <!-- end help bar -->
+
+    </div>
+  </header>
+
+  <div class="main-top"></div>
+
+
+  <!-- start of page -->
+  <div class="page-section" id="homepage">
+    <div class="page">
+
+      <div class="col2 section">
+        <div class="column">
+          <div class="block">
+          <img src="img/graph.png" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="block">
+            <img src="img/alert.png" />
+            </div>
+            <div class="block">
+            <img src="img/weather.png" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- end of page -->
+
+
+  <!-- start of page -->
+  <div class="page-section" id="customer-preferences">
+  <div class="section-header">
+    <h2>Customer Preferences</h2>
+  </div>
+
+  <div class="page">
+
+  <div class="col2 section">
+    <div class="column">
+
+      <div class="block">
+        <h3 class="block-title">Cardholder Information</h3>
+        <div class="block-content">
+          
+         <div class="col1to2">
+          <div class="primary">
+            <p>
+              <strong>Name</strong><br>
+              <strong>Relationship</strong><br>
+              <strong>Phone</strong><br>
+              <strong>Business Name</strong><br>
+              <strong>Date of Birth</strong><br>
+            </p>
+          </div>
+          <div class="secondary">
+            <p>
+              <span class="title">Jerry Seinfeld</span><br>
+              <span class="title">Primary Cardholder</span><br>
+              <span class="title">(804) 555-2934</span><br>
+              <span class="title">Capital Garage, Inc</span><br>
+              <span class="title">08/20/1985</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        </div>
+      </div>
+
+      <div class="block">
+        <h3 class="block-title">Account Information</h3>
+        <div class="block-content">
+
+        <div class="col2">
+          <div class="column text-align-right">
+            <p>
+              <strong>Current Balance</strong><br>
+              <strong>Credit Limit</strong><br>
+              <strong>Available Credit</strong><br>
+              <strong>Cash Limit</strong><br>
+              <strong>Current Cash Balance</strong><br>
+              <strong>Interest Charged YTD</strong><br>
+              <strong>Interest Charged PYE</strong><br>
+              <strong>Membership Fee</strong><br>
+              <strong>Next Membership Fee</strong><br>
+              <strong>Last Credit Limit Chg</strong><br>
+              <strong>Increase/Decrease</strong><br>
+              <strong>Original Account Terms</strong><br>
+              <strong><a href="#">Online Banking</a></strong><br>
+            </p>
+          </div>
+          <div class="column">
+            <p>
+              <span class="title">$283.30</span><br>
+              <span class="title">$5,000.13</span><br>
+              <span class="title">$23.13</span><br>
+              <span class="title">$100.13</span> <a href="#" class="button small">Change</a><br>
+              <span class="title">$4,000.13</span><br>
+              <span class="title">$2,000.13</span><br>
+              <span class="title">$13.00</span><br>
+              <span class="title">$0.00</span> <a href="#" class="button small">Change</a><br>
+              <span class="title">N/A</span><br>
+              <span class="title">05/22/2015</span><br>
+              <span class="title red">Decrease</span><br>
+              <span class="title">N/A</span><br>
+              <span class="title">Not enrolled</span> <a href="#" class="button small">Enroll</a><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        </div>
+      </div>
+
+      <div class="block">
+        <h3 class="block-title">Transactions/Authorizations</h3>
+        <div class="block-content">
+          
+           <table>
+            <thead>
+              <tr>
+                <th>Segment</th>
+                <th>Active Rate</th>
+                <th>Type</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Balance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               <td>Purchases</td>
+               <td>16.9</td>
+               <td>Fixed</td>
+               <td>08/25/2015</td>
+               <td>08/20/2020</td>
+               <td>$216.80</td>
+              </tr>
+              <tr>
+                <td>Purchases</td>
+               <td>16.9</td>
+               <td>Fixed</td>
+               <td>08/25/2015</td>
+               <td>08/20/2020</td>
+               <td>$216.80</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="column">
+
+      <div class="col2 section">
+        <div class="column">
+
+          <div class="block">
+            <h3 class="block-title">Account statuses</h3>
+            <div class="block-content">
+              <ul>
+                <li><a href="#" class="dashed red">Credit revoked past due</a></li>
+                <li><a href="#" class="dashed yellow">Card declined</a></li>
+                <li><a href="#" class="dashed">No pmt in 13 full cycles</a></li>
+                <li><a href="#" class="dashed">Address problem</a></li>
+            </div>
+          </div>
+
+        </div>
+        <div class="column">
+
+          <div class="block">
+            <h3 class="block-title">Rewards</h3>
+            <div class="block-content">
+              <p>No rewards available.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="block section">
+        <h3 class="block-title">Balance Segments</h3>
+        <div class="block-content">
+          
+          <table>
+            <thead>
+              <tr>
+                <th>Segment</th>
+                <th>Active Rate</th>
+                <th>Type</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Balance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               <td>Purchases</td>
+               <td>16.9</td>
+               <td>Fixed</td>
+               <td>08/25/2015</td>
+               <td>08/20/2020</td>
+               <td>$216.80</td>
+              </tr>
+              <tr>
+                <td>Purchases</td>
+               <td>16.9</td>
+               <td>Fixed</td>
+               <td>08/25/2015</td>
+               <td>08/20/2020</td>
+               <td>$216.80</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+        </div>
+      </div>
+
+      <div class="block">
+        <h3 class="block-title">Offer Information</h3>
+        <div class="block-content">
+
+          <h4>Available Offers</h4>
+           <table>
+            <thead>
+              <tr>
+                <th>Offer Type</th>
+                <th>Offer ID</th>
+                <th>Description</th>
+                <th>Expiration Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               <td>RET</td>
+               <td><a href="#">1008</a></td>
+               <td>Stayed Open</td>
+               <td>08/25/2019</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br><br>
+          <h4>Previous Offers</h4>
+           <table>
+            <thead>
+              <tr>
+                <th>Offer Type</th>
+                <th>Offer ID</th>
+                <th>Description</th>
+                <th>Offer Status</th>
+                <th>Offer Status Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               <td>RET</td>
+               <td><a href="#">1308</a></td>
+               <td>Past Due Fee Waiver</td>
+               <td><span class="green">Accepted</span> <i class="fa fa-check green"></i></td>
+               <td>08/25/2019</td>
+              </tr>
+              <tr>
+               <td>PRC</td>
+               <td><a href="#">1204</a></td>
+               <td>Balance Adj</td>
+               <td><span class="red">Rejected</span> <i class="fa fa-times red"></i></td>
+               <td>04/25/2011</td>
+              </tr>
+              <tr>
+               <td>PRC</td>
+               <td><a href="#">1358</a></td>
+               <td>Past Due Fee Waiver</td>
+               <td><span class="green">Accepted</span> <i class="fa fa-check green"></i></td>
+               <td>08/25/2019</td>
+              </tr>
+              <tr>
+               <td>RET</td>
+               <td><a href="#">1308</a></td>
+               <td>Past Due Fee Waiver</td>
+               <td><span class="green">Accepted</span> <i class="fa fa-check green"></i></td>
+               <td>08/20/2010</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+      </div> 
+      </div><div class="clearfix"></div>
+      </div>
+    </div> 
+    <!-- end of page -->
+
+
+
+    <!-- start of page -->
+    <div class="page-section" id="account-protection">
+      <div class="section-header">
+        <h2>Account Protection</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+      </div>
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="product-info">
+      <div class="section-header">
+        <h2>Product Info</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="personal-info">
+      <div class="section-header">
+        <h2>Personal Info</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="payments">
+      <div class="section-header">
+        <h2>Payments</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="authorization">
+      <div class="section-header">
+        <h2>Authorization</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="statements">
+      <div class="section-header">
+        <h2>Statements</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="history">
+      <div class="section-header">
+        <h2>History</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+    <!-- start of page -->
+    <div class="page-section" id="offer-management">
+      <div class="section-header">
+        <h2>Offer Management</h2>
+      </div>
+
+      <div class="page">
+        <div style="background:#ddd;width:100%;height:900px;"></div>
+      </div> 
+    </div>
+    <!-- end of page -->
+
+
+  </div>
+</section>
+<!-- end of main wrapper -->
+
+<!-- footer popups -->
+<div class="footer-actions">
+  <div class="open-calc"><i class="fa fa-calculator"></i> <span class="calc-count">Calc</span></div>
+  <div class="open-notes"><i class="fa fa-sticky-note-o"></i> Notes <span class="notes-count">4</span></div>
+</div>
+
+<div class="notes-popup">
+  <span class="close-notes"><i class="fa fa-times"></i></span>
+  <textarea placeholder="Start typing your notes here"></textarea>
+</div>
+
+<div class="calc-popup">
+  <span class="close-calc"><i class="fa fa-times"></i></span>
+  <img src="img/calc.png" />
+</div>
+<!-- end footer popups -->
+
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- devcode: !production -->
+<script src="//localhost:35729/livereload.js"></script>
+<!-- endcode -->
+
+</body>
+
+</html>
